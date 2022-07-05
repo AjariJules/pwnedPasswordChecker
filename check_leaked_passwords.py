@@ -37,7 +37,7 @@ def main():
         pass_check = password_check(pwnd_passwords,hashed_pass)
 
         if pass_check:
-            print(f'Password {password} leaked { pass_check["count"] },  consider using a different password')
+            print(f'Password {password} leaked { pass_check["count"] } times,  consider using a different password')
         else:
             print(f'Password {password} was never leaked, should be safe :) ')
             
