@@ -1,6 +1,6 @@
 check_leaked_passwords
 
-A tool to check if a passwords were ever leaked.
+A tool to check if passwords were ever leaked.
 The password list is supplied by https://haveibeenpwned.com/ API 
 
 USAGE - 
